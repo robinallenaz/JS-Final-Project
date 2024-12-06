@@ -1,6 +1,6 @@
 # Automated Card Game: WAR
 
-This project is an automated version of the classic card game WAR, designed for two players.
+This project is an automated version of the classic card game WAR, designed for two players. The game runs automatically and displays results in the console, requiring no user input.
 
 ## Game Overview
 - **Players**: 2
@@ -24,6 +24,10 @@ This project is an automated version of the classic card game WAR, designed for 
 ### Game
 - Manages the game logic, including starting the game, playing rounds, and determining the winner.
 - Methods: `startGame()`, `playRound()`, `determineWinner()`, `playGame()`.
+
+## Game Execution
+- The game is executed by creating an instance of the `Game` class and calling the `playGame()` method.
+- The game will automatically run through all rounds and determine the winner based on the scores.
 
 ## How to Run the Game
 1. Ensure you have Node.js installed on your machine.

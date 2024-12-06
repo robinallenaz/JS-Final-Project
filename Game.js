@@ -71,7 +71,6 @@ class Game {
 
 module.exports = Game;
 
-// To play the game, create an instance of the Game class and call playGame method.
-// Example:
-// const game = new Game();
-// game.playGame();
+// Create a new game instance and play the game
+const game = new Game();
+game.playGame();
